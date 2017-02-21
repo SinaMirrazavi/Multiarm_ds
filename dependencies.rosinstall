@@ -1,0 +1,2 @@
+- git: {local-name: motion_prediction, uri: 'https://github.com/epfl-lasa/Object-Trajectory-Prediction'}
+- git: {local-name: robot-toolkit, uri: 'https://github.com/epfl-lasa/robot-toolkit'}

@@ -83,8 +83,15 @@ Get_the_robot_state(Index of the robot, Desired state of the robot);
 
 - **Note 2: If you want to predict the object trajectory in a separate program, you need to Set_index_of_grabbing_posititon_(.)  and  Set_pos_of_grabbing_posititon_for_object_(.)  and Set_index_of_grabbing_posititon_(.) before Update(.) in the main program**
 
-# Example of the using this package for two 7-DOF robots is available here:
-
+## Copyright
+Please cite these papers if you are using this toolbox:
+@article{mirrazavi2018unified,
+  title={A unified framework for coordinated multi-arm motion planning},
+  author={Mirrazavi Salehian, Seyed Sina and Figueroa, Nadia and Billard, Aude},
+  journal={The International Journal of Robotics Research},
+  pages={0278364918765952},
+  publisher={SAGE Publications Sage UK: London, England}
+}
 
 
 For more information contact Sina Mirrazavi.

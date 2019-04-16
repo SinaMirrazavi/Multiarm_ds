@@ -38,6 +38,9 @@ Initialize_robot(Index of the robot,Number of LPV Components, path to A matrix o
  ```
 3- Initialize the virtual object:
 ```
+Set_the_grabbing_state(Index of the robot,State of the grabbing position,State of the object );
+```
+```
 Initialize_the_virtual_object();
 ```
 4- Set the initial position of the robot
@@ -62,6 +65,7 @@ Set_the_object_state(State of the object,D-State of the object);
 Set_the_object_state_for_prediction((State of the object,D-State of the object, Time);
 ```
 Note: It is time! not the sample time.
+
 9- Set state of the grabbing positions on the objects
 ```
 Set_the_grabbing_state(Index of the robot,State of the grabbing position,State of the object );
